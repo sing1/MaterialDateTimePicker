@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Material DateTimePicker</string>
+    <string name="title_activity_main">DateTimePicker</string>
+    <string name="selected_time">您选择的时间将显示在这里</string>
+    <string name="selected_date">您选择的日期将显示在这里</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="mode_24_hours">24小时模式</string>
+    <string name="mode_dark_time">dark theme</string>
+    <string name="mode_dark_date">dark theme</string>
+    <string name="mode_custom_accent">custom accent</string>
+    <string name="vibrate_time">振动触摸</string>
+    <string name="vibrate_date">振动触摸</string>
+    <string name="dismiss_time">Dismiss on Pause</string>
+    <string name="dismiss_date">Dismiss on Pause</string>
+    <string name="title_time">显示标题</string>
+    <string name="title_date">显示标题</string>
+    <string name="show_year_first">先显示年</string>
+    <string name="enable_seconds">显示秒</string>
+    <string name="enable_minutes">显示分</string>
+    <string name="limit_times">限制选择部分时间</string>
+    <string name="limit_dates">限制选择部分日期</string>
+    <string name="disable_dates">禁用特定日期</string>
+    <string name="highlight_dates">高亮部分日期</string>
+    <!--<string name="action_settings">Settings</string>-->
+
+</resources>

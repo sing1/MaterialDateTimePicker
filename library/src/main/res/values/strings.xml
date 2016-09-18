@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <string name="mdtp_select_hours">Select hours</string>
+    <string name="mdtp_select_minutes">Select minutes</string>
+    <string name="mdtp_select_seconds">Select seconds</string>
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <string name="mdtp_year_picker_description">Year list</string>
+    <string name="mdtp_select_day">Select month and day</string>
+    <string name="mdtp_select_year">Select year</string>
+    <string name="mdtp_item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> selected</string>
+    <string name="mdtp_deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+    <string name="mdtp_time_placeholder" translatable="false">00</string>
+    <string name="mdtp_time_separator" translatable="false">:</string>
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+</resources>
