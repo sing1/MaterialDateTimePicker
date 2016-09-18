@@ -5,7 +5,7 @@
  ![demo](./app/src/main/res/mipmap-xhdpi/time1.png "demo")
  ![demo](./app/src/main/res/mipmap-xhdpi/time2.png "demo")
 ## apk
-[MaterialDateTimePicker-1.0.1-sample.apk](https://github.com/Sing1/MaterialDateTimePicker/app.apk)
+[MaterialDateTimePicker-1.0.1-sample.apk](https://github.com/Sing1/MaterialDateTimePicker/blob/master/app.apk)
 ## gradle:
 ```groovy
 dependencies {
