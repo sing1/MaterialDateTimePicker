@@ -1,9 +1,9 @@
 # MaterialDateTimePicker
  
- ![demo](./app/src/main/res/mipmap-xhdpi/date1.png "demo")
- ![demo](./app/src/main/res/mipmap-xhdpi/date2.png "demo")
- ![demo](./app/src/main/res/mipmap-xhdpi/time1.png "demo")
- ![demo](./app/src/main/res/mipmap-xhdpi/time2.png "demo")
+ ![](./app/src/main/res/mipmap-xhdpi/date1.png "")
+ ![](./app/src/main/res/mipmap-xhdpi/date2.png "")
+ ![](./app/src/main/res/mipmap-xhdpi/time1.png "")
+ ![](./app/src/main/res/mipmap-xhdpi/time2.png "")
 ## apk
 [MaterialDateTimePicker-1.0.1-sample.apk](https://github.com/Sing1/MaterialDateTimePicker/blob/master/app.apk)
 ## gradle:
