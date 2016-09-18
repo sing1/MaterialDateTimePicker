@@ -1,8 +1,11 @@
 # MaterialDateTimePicker
  
- ![demo](./app/src/main/res/drawable/demo.gif "demo")
+ ![demo](./app/src/main/res/mipmap-xhdpi/date1.png "demo")
+ ![demo](./app/src/main/res/mipmap-xhdpi/date2.png "demo")
+ ![demo](./app/src/main/res/mipmap-xhdpi/time1.png "demo")
+ ![demo](./app/src/main/res/mipmap-xhdpi/time2.png "demo")
 ## apk
-[MaterialProgressBar-1.0.3-sample.apk](https://github.com/Sing1/MaterialProgressBar/blob/master/app.apk)
+[MaterialDateTimePicker-1.0.1-sample.apk](https://github.com/Sing1/MaterialDateTimePicker/app.apk)
 ## gradle:
 ```groovy
 dependencies {
