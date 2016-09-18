@@ -10,10 +10,7 @@ import android.os.Vibrator;
 import android.provider.Settings;
 
 /**
- * @className   HapticFeedbackController
- * @time        2016/9/18 13:45
- * @author      LiangYx
- * @description A simple utility class to handle haptic feedback.
+ * A simple utility class to handle haptic feedback.
  */
 public class HapticFeedbackController {
     private static final int VIBRATE_DELAY_MS = 125;

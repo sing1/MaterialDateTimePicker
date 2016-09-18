@@ -10,8 +10,6 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
 import android.support.v4.content.ContextCompat;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
@@ -39,10 +37,7 @@ import java.util.Locale;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   DatePickerDialog
- * @time        2016/9/18 13:52
- * @author      LiangYx
- * @description Dialog allowing users to select a date.
+ * Dialog allowing users to select a date.
  */
 public class DatePickerDialog extends DialogFragment implements
         OnClickListener, DatePickerController {
@@ -202,7 +197,7 @@ public class DatePickerDialog extends DialogFragment implements
     }
 
     @Override
-    public void onSaveInstanceState(@NonNull Bundle outState) {
+    public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt(KEY_SELECTED_YEAR, mCalendar.get(Calendar.YEAR));
         outState.putInt(KEY_SELECTED_MONTH, mCalendar.get(Calendar.MONTH));
@@ -717,7 +712,7 @@ public class DatePickerDialog extends DialogFragment implements
      * @param okResid A resource ID to be used as the Ok button label
      */
     @SuppressWarnings("unused")
-    public void setOkText(@StringRes int okResid) {
+    public void setOkText(int okResid) {
         mOkString = null;
         mOkResid = okResid;
     }
@@ -736,7 +731,7 @@ public class DatePickerDialog extends DialogFragment implements
      * @param cancelResid A resource ID to be used as the Cancel button label
      */
     @SuppressWarnings("unused")
-    public void setCancelText(@StringRes int cancelResid) {
+    public void setCancelText(int cancelResid) {
         mCancelString = null;
         mCancelResid = cancelResid;
     }

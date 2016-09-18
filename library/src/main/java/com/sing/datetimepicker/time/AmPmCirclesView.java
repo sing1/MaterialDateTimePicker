@@ -17,10 +17,7 @@ import java.text.DateFormatSymbols;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   AmPmCirclesView
- * @time        2016/9/18 13:49
- * @author      LiangYx
- * @description Draw the two smaller AM and PM circles next to where the larger circle will be.
+ * Draw the two smaller AM and PM circles next to where the larger circle will be.
  */
 public class AmPmCirclesView extends View {
     private static final String TAG = "AmPmCirclesView";

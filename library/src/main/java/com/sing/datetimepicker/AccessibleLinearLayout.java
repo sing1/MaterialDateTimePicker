@@ -8,10 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 /**
- * @className   AccessibleLinearLayout
- * @time        2016/9/18 13:46
- * @author      LiangYx
- * @description Fake Button class, used so TextViews can announce themselves as Buttons, for accessibility.
+ * Fake Button class, used so TextViews can announce themselves as Buttons, for accessibility.
  */
 public class AccessibleLinearLayout extends LinearLayout {
 

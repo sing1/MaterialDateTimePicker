@@ -3,10 +3,7 @@ package com.sing.datetimepicker.date;
 import java.util.Calendar;
 
 /**
- * @className   DatePickerController
- * @time        2016/9/18 14:04
- * @author      LiangYx
- * @description Controller class to communicate among the various components of the date picker dialog.
+ * Controller class to communicate among the various components of the date picker dialog.
  */
 public interface DatePickerController {
 

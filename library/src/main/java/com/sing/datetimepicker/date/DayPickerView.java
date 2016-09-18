@@ -24,10 +24,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 /**
- * @className   DayPickerView
- * @time        2016/9/18 14:03
- * @author      LiangYx
- * @description This displays a list of months in a calendar format with selectable days.
+ * This displays a list of months in a calendar format with selectable days.
  */
 public abstract class DayPickerView extends ListView implements OnScrollListener, DatePickerDialog.OnDateChangedListener {
 

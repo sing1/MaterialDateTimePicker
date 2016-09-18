@@ -15,10 +15,7 @@ import android.widget.TextView;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   TextViewWithCircularIndicator
- * @time        2016/9/18 14:01
- * @author      LiangYx
- * @description  A text view which, when pressed or activated, displays a colored circle around the text.
+ *  A text view which, when pressed or activated, displays a colored circle around the text.
  */
 public class TextViewWithCircularIndicator extends TextView {
 

@@ -18,10 +18,7 @@ import android.view.View;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   RadialTextsView
- * @time        2016/9/18 13:48
- * @author      LiangYx
- * @description A view to show a series of numbers in a circular pattern.
+ * A view to show a series of numbers in a circular pattern.
  */
 public class RadialTextsView extends View {
     private final static String TAG = "RadialTextsView";
@@ -246,7 +243,7 @@ public class RadialTextsView extends View {
          * The numbers need to be drawn in a 7x7 grid, representing the points on the Unit Circle.
          */
         float offset1 = numbersRadius;
-        // cos(30) = a / r => r * cos(30) = a => r * √3/2 = a
+
         float offset2 = numbersRadius * ((float) Math.sqrt(3)) / 2f;
         // sin(30) = o / r => r * sin(30) = o => r / 2 = a
         float offset3 = numbersRadius / 2f;

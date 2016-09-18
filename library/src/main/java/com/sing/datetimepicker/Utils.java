@@ -17,10 +17,7 @@ import android.view.View;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   Utils
- * @time        2016/9/18 13:44
- * @author      LiangYx
- * @description Utility helper functions for time and date pickers.
+ * Utility helper functions for time and date pickers.
  */
 public class Utils {
     //public static final int MONDAY_BEFORE_JULIAN_EPOCH = Time.EPOCH_JULIAN_DAY - 3;

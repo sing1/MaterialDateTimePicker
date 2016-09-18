@@ -3,10 +3,7 @@ package com.sing.datetimepicker.date;
 import android.content.Context;
 import android.util.AttributeSet;
 /**
- * @className   SimpleDayPickerView
- * @time        2016/9/18 14:02
- * @author      LiangYx
- * @description A DayPickerView customized for {@link SimpleMonthAdapter}
+ * A DayPickerView customized for {@link SimpleMonthAdapter}
  */
 public class SimpleDayPickerView extends DayPickerView {
 

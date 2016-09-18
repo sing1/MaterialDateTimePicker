@@ -11,10 +11,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 
 /**
- * @className   MonthAdapter
- * @time        2016/9/18 14:02
- * @author      LiangYx
- * @description An adapter for a list of {@link MonthView} items.
+ * An adapter for a list of {@link MonthView} items.
  */
 public abstract class MonthAdapter extends BaseAdapter implements MonthView.OnDayClickListener {
 

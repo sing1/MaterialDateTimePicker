@@ -41,10 +41,7 @@ import java.util.Locale;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   TimePickerDialog
- * @time        2016/9/18 13:59
- * @author      LiangYx
- * @description Dialog to set a time.
+ *  Dialog to set a time.
  */
 public class TimePickerDialog extends DialogFragment implements
         RadialPickerLayout.OnValueSelectedListener, TimePickerController {

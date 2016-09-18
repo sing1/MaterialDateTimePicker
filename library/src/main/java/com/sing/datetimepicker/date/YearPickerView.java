@@ -18,10 +18,7 @@ import java.util.List;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   YearPickerView
- * @time        2016/9/18 14:01
- * @author      LiangYx
- * @description Displays a selectable list of years.
+ * Displays a selectable list of years.
  */
 public class YearPickerView extends ListView implements OnItemClickListener, DatePickerDialog.OnDateChangedListener {
     private static final String TAG = "YearPickerView";

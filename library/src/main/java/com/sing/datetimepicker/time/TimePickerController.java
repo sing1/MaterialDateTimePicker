@@ -1,10 +1,7 @@
 package com.sing.datetimepicker.time;
 
 /**
- * @className   TimePickerController
- * @time        2016/9/18 13:47
- * @author      LiangYx
- * @description A collection of methods which need to be shared with all components of the TimePicker
+ * A collection of methods which need to be shared with all components of the TimePicker
  */
 public interface TimePickerController {
     /**

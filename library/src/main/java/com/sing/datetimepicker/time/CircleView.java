@@ -11,10 +11,7 @@ import android.view.View;
 import sing.materialdatetimepicker.R;
 
 /**
- * @className   CircleView
- * @time        2016/9/18 13:49
- * @author      LiangYx
- * @description Draws a simple white circle on which the numbers will be drawn.
+ * Draws a simple white circle on which the numbers will be drawn.
  */
 public class CircleView extends View {
     private static final String TAG = "CircleView";
