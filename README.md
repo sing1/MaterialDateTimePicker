@@ -23,86 +23,8 @@ dependencies {
 </dependency>
 ```
 ## sample 
-```JAVA
-package sing.datetimepicker;
-
-
-import android.content.DialogInterface;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
-import android.widget.CheckBox;
-import android.widget.TextView;
-
-import com.sing.datetimepicker.Utils;
-import com.sing.datetimepicker.date.DatePickerDialog;
-import com.sing.datetimepicker.time.RadialPickerLayout;
-import com.sing.datetimepicker.time.TimePickerDialog;
-
-import java.util.Calendar;
-
-public class MainActivity extends AppCompatActivity implements
-        View.OnClickListener,
-        TimePickerDialog.OnTimeSetListener,
-        DatePickerDialog.OnDateSetListener {
-    private TextView timeTextView;
-    private TextView dateTextView;
-    private CheckBox mode24Hours;
-    private CheckBox modeDarkTime;
-    private CheckBox modeDarkDate;
-    private CheckBox modeCustomAccentTime;
-    private CheckBox modeCustomAccentDate;
-    private CheckBox vibrateTime;
-    private CheckBox vibrateDate;
-    private CheckBox dismissTime;
-    private CheckBox dismissDate;
-    private CheckBox titleTime;
-    private CheckBox titleDate;
-    private CheckBox showYearFirst;
-    private CheckBox enableSeconds;
-    private CheckBox enableMinutes;
-    private CheckBox limitTimes;
-    private CheckBox limitDates;
-    private CheckBox disableDates;
-    private CheckBox highlightDates;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        timeTextView = (TextView) findViewById(R.id.time_textview);
-        dateTextView = (TextView) findViewById(R.id.date_textview);
-        mode24Hours = (CheckBox) findViewById(R.id.mode_24_hours);
-        modeDarkTime = (CheckBox) findViewById(R.id.mode_dark_time);
-        modeDarkDate = (CheckBox) findViewById(R.id.mode_dark_date);
-        modeCustomAccentTime = (CheckBox) findViewById(R.id.mode_custom_accent_time);
-        modeCustomAccentDate = (CheckBox) findViewById(R.id.mode_custom_accent_date);
-        vibrateTime = (CheckBox) findViewById(R.id.vibrate_time);
-        vibrateDate = (CheckBox) findViewById(R.id.vibrate_date);
-        dismissTime = (CheckBox) findViewById(R.id.dismiss_time);
-        dismissDate = (CheckBox) findViewById(R.id.dismiss_date);
-        titleTime = (CheckBox) findViewById(R.id.title_time);
-        titleDate = (CheckBox) findViewById(R.id.title_date);
-        showYearFirst = (CheckBox) findViewById(R.id.show_year_first);
-        enableSeconds = (CheckBox) findViewById(R.id.enable_seconds);
-        enableMinutes = (CheckBox) findViewById(R.id.enable_minutes);
-        limitTimes = (CheckBox) findViewById(R.id.limit_times);
-        limitDates = (CheckBox) findViewById(R.id.limit_dates);
-        disableDates = (CheckBox) findViewById(R.id.disable_dates);
-        highlightDates = (CheckBox) findViewById(R.id.highlight_dates);
-
-        // Check if picker mode is specified in Style.xml
-        modeDarkTime.setChecked(Utils.isDarkTheme(this, modeDarkTime.isChecked()));
-        modeDarkDate.setChecked(Utils.isDarkTheme(this, modeDarkDate.isChecked()));
-
-        // Ensure a consistent state between enableSeconds and enableMinutes
-        enableMinutes.setOnClickListener(this);
-        enableSeconds.setOnClickListener(this);
-    }
-
+```JAVA    
+ 
     /**
      * 选择时间
      * @param v
@@ -189,24 +111,7 @@ public class MainActivity extends AppCompatActivity implements
         }
         dpd.show(getFragmentManager(), "Datepickerdialog");
     }
-
-    @Override
-    public void onClick(View view) {
-        if (enableSeconds.isChecked() && view.getId() == R.id.enable_seconds)
-            enableMinutes.setChecked(true);
-        if (!enableMinutes.isChecked() && view.getId() == R.id.enable_minutes)
-            enableSeconds.setChecked(false);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        TimePickerDialog tpd = (TimePickerDialog) getFragmentManager().findFragmentByTag("Timepickerdialog");
-        DatePickerDialog dpd = (DatePickerDialog) getFragmentManager().findFragmentByTag("Datepickerdialog");
-
-        if (tpd != null) tpd.setOnTimeSetListener(this);
-        if (dpd != null) dpd.setOnDateSetListener(this);
-    }
+  
 
     @Override
     public void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int second) {
