@@ -24,41 +24,40 @@ dependencies {
 ```
 ## sample 
 ```JAVA    
- 
-    /**
-     * 选择时间
-     * @param v
-     */
-    public void timeButton(View v){
-        Calendar now = Calendar.getInstance();
-        TimePickerDialog tpd = TimePickerDialog.newInstance(
-                MainActivity.this,
-                now.get(Calendar.HOUR_OF_DAY),
-                now.get(Calendar.MINUTE),
-                mode24Hours.isChecked()
-        );
-        tpd.setThemeDark(modeDarkTime.isChecked());
-        tpd.vibrate(vibrateTime.isChecked());
-        tpd.dismissOnPause(dismissTime.isChecked());
-        tpd.enableSeconds(enableSeconds.isChecked());
-        tpd.enableMinutes(enableMinutes.isChecked());
-        if (modeCustomAccentTime.isChecked()) {
-            tpd.setAccentColor(Color.parseColor("#9C27B0"));
-        }
-        if (titleTime.isChecked()) {
-            tpd.setTitle("TimePicker Title");
-        }
-        if (limitTimes.isChecked()) {
-            tpd.setTimeInterval(2, 5, 10);
-        }
-        tpd.setOnCancelListener(new DialogInterface.OnCancelListener() {
-            @Override
-            public void onCancel(DialogInterface dialogInterface) {
-                Log.d("TimePicker", "Dialog was cancelled");
-            }
-        });
-        tpd.show(getFragmentManager(), "Timepickerdialog");
+/**
+ * 选择时间
+ * @param v
+ */
+public void timeButton(View v){
+　　Calendar now = Calendar.getInstance();
+　　TimePickerDialog tpd = TimePickerDialog.newInstance(
+　　　　MainActivity.this,
+　　　　now.get(Calendar.HOUR_OF_DAY),
+　　　　now.get(Calendar.MINUTE),
+　　　　mode24Hours.isChecked()//是否24小时模式
+　　);
+　　tpd.setThemeDark(modeDarkTime.isChecked());
+　　tpd.vibrate(vibrateTime.isChecked());
+　　tpd.dismissOnPause(dismissTime.isChecked());
+　　tpd.enableSeconds(enableSeconds.isChecked());
+　　tpd.enableMinutes(enableMinutes.isChecked());
+    if (modeCustomAccentTime.isChecked()) {
+        tpd.setAccentColor(Color.parseColor("#9C27B0"));
     }
+    if (titleTime.isChecked()) {
+        tpd.setTitle("TimePicker Title");
+    }
+    if (limitTimes.isChecked()) {
+        tpd.setTimeInterval(2, 5, 10);
+    }
+    tpd.setOnCancelListener(new DialogInterface.OnCancelListener() {
+        @Override
+        public void onCancel(DialogInterface dialogInterface) {
+            Log.d("TimePicker", "Dialog was cancelled");
+        }
+    });
+    tpd.show(getFragmentManager(), "Timepickerdialog");
+  }
 
     /**
      * 日期选择
