@@ -19,7 +19,7 @@ dependencies {
   <groupId>sing.materialdatetimepicker</groupId>
   <artifactId>library</artifactId>
   <version>1.0.1</version>
-  <type>aar</type>
+  <type>pom</type>
 </dependency>
 ```
 ## sample 
@@ -34,26 +34,26 @@ public void timeButton(View v){
 　　　　MainActivity.this,
 　　　　now.get(Calendar.HOUR_OF_DAY),
 　　　　now.get(Calendar.MINUTE),
-　　　　mode24Hours.isChecked()//是否24小时模式
+　　　　isMode24Hours// boolean,是否24小时模式
 　　);
-　　tpd.setThemeDark(modeDarkTime.isChecked());
-　　tpd.vibrate(vibrateTime.isChecked());
-　　tpd.dismissOnPause(dismissTime.isChecked());
-　　tpd.enableSeconds(enableSeconds.isChecked());
-　　tpd.enableMinutes(enableMinutes.isChecked());
-    if (modeCustomAccentTime.isChecked()) {
+　　tpd.setThemeDark(isDarkTheme);// boolean,DarkTheme
+　　tpd.vibrate(vibrateTime.isChecked());// boolean,触摸震动
+　　tpd.dismissOnPause(isDismiss);// boolean,Pause时是否Dismiss
+　　tpd.enableSeconds(showSeconds);// boolean,显示秒
+　　tpd.enableMinutes(showMinutes);// boolean,显示分
+    if (customAccent.isChecked()) {// boolean,自定义颜色
         tpd.setAccentColor(Color.parseColor("#9C27B0"));
     }
-    if (titleTime.isChecked()) {
+    if (title.isChecked()) {// boolean,设置标题
         tpd.setTitle("TimePicker Title");
     }
-    if (limitTimes.isChecked()) {
+    if (limitTimes.isChecked()) {// boolean,限制部分时间
         tpd.setTimeInterval(2, 5, 10);
     }
     tpd.setOnCancelListener(new DialogInterface.OnCancelListener() {
         @Override
         public void onCancel(DialogInterface dialogInterface) {
-            Log.d("TimePicker", "Dialog was cancelled");
+            Log.d("Time", "点击了取消");
         }
     });
     tpd.show(getFragmentManager(), "Timepickerdialog");
