@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\workspace\MaterialDateTimePicker\library\src\main\assets"><file name="fonts/Roboto-Medium.ttf" path="D:\workspace\MaterialDateTimePicker\library\src\main\assets\fonts\Roboto-Medium.ttf"/></source><source path="D:\workspace\MaterialDateTimePicker\library\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\workspace\MaterialDateTimePicker\library\src\debug\assets"/></dataSet></merger>

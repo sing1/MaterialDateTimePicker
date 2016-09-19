@@ -1,0 +1,176 @@
+[
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 97,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-v16\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 97,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 517
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 226
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 97,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-v16\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 97,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 517
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 226
+                    }
+                }
+            }
+        ]
+    }
+]

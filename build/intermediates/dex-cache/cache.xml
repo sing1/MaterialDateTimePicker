@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_6fa9d219412d42fd16071f6b7127e334e3680a1e.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b1367663b2c4c5d8bb2be31599c1778537e29d7d">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5855eacc9a09a7740a8155385515dbaa677deb8b.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_b2ed83e6e746fa4539a03978973ec785a8d66b8c.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_97fdcd36f04e0d17ac9f2469da2532d78f02886a.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_772d5ebf5eb05408bf3aadca389b03b75b084721.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e9512b3729bcd55bd5760475df82c221948f771b">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\instant-run_d5cce88532bdeec5d16f3caf520ae9207a99b934.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_633c2107352d18da9a8d225e4d2a14c9adf99a15.jar" />
+    </item>
+    <item
+        jar="D:\workspace\MaterialDateTimePicker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\workspace\MaterialDateTimePicker\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_603141382de6aa9ca05883946fa04684790bc3fd.jar" />
+    </item>
+
+</items>

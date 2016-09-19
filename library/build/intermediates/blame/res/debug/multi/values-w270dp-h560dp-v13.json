@@ -1,0 +1,202 @@
+[
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\res\\merged\\debug\\values-w270dp-h560dp-v13\\values-w270dp-h560dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 68,
+                        "endOffset": 231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 59,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 59,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 57,
+                    "endOffset": 237
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endColumn": 57,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 60,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 60,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 59,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 59,
+                        "endOffset": 349
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\res\\merged\\debug\\values-w270dp-h560dp-v13\\values-w270dp-h560dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 68,
+                        "endOffset": 231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 59,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 59,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 57,
+                    "endOffset": 237
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endColumn": 57,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 60,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 60,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 59,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w270dp-h560dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 59,
+                        "endOffset": 349
+                    }
+                }
+            }
+        ]
+    }
+]

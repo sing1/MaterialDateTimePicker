@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace\\MaterialDateTimePicker\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
+        "source": "D:\\workspace\\MaterialDateTimePicker\\app\\build\\intermediates\\exploded-aar\\sing.materialdatetimepicker\\library\\1.0.1\\res\\layout-land\\mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\MaterialDateTimePicker\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
+        "source": "D:\\workspace\\MaterialDateTimePicker\\app\\build\\intermediates\\exploded-aar\\sing.materialdatetimepicker\\library\\1.0.1\\res\\layout-land\\mdtp_date_picker_dialog.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date_picker_header"
+    android:layout_width="@dimen/mdtp_date_picker_component_width"
+    android:layout_height="@dimen/mdtp_date_picker_header_height"
+    android:background="@color/mdtp_calendar_header"
+    android:gravity="center"
+    android:importantForAccessibility="no"
+    android:includeFontPadding="false"
+    android:textColor="@color/mdtp_white"
+    android:textSize="@dimen/mdtp_date_picker_header_text_size" />

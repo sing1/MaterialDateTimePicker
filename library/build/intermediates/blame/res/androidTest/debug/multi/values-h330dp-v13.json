@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-h330dp-v13\\values-h330dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 69,
+                    "endOffset": 120
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\bundles\\debug\\res\\values-h330dp-v13\\values-h330dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 125,
+                    "endColumn": 56,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\bundles\\debug\\res\\values-h330dp-v13\\values-h330dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 56,
+                        "endOffset": 177
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-h330dp-v13\\values-h330dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 69,
+                    "endOffset": 120
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\bundles\\debug\\res\\values-h330dp-v13\\values-h330dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 125,
+                    "endColumn": 56,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\bundles\\debug\\res\\values-h330dp-v13\\values-h330dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 56,
+                        "endOffset": 177
+                    }
+                }
+            }
+        ]
+    }
+]

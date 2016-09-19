@@ -1,0 +1,126 @@
+[
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\library\\build\\intermediates\\res\\merged\\debug\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 53,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 53,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 50,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 50,
+                        "endOffset": 166
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\workspace\\MaterialDateTimePicker\\Library\\build\\intermediates\\res\\merged\\debug\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 53,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 53,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 50,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "D:\\workspace\\MaterialDateTimePicker\\Library\\src\\main\\res\\values-w560dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 50,
+                        "endOffset": 166
+                    }
+                }
+            }
+        ]
+    }
+]
