@@ -37,17 +37,17 @@ public void timeButton(View v){
 　　　　isMode24Hours// boolean,是否24小时模式
 　　);
 　　tpd.setThemeDark(isDarkTheme);// boolean,DarkTheme
-　　tpd.vibrate(vibrateTime.isChecked());// boolean,触摸震动
+　　tpd.vibrate(isVibrate);// boolean,触摸震动
 　　tpd.dismissOnPause(isDismiss);// boolean,Pause时是否Dismiss
 　　tpd.enableSeconds(showSeconds);// boolean,显示秒
 　　tpd.enableMinutes(showMinutes);// boolean,显示分
-    if (customAccent.isChecked()) {// boolean,自定义颜色
+    if (isCustomAccent) {// boolean,自定义颜色
         tpd.setAccentColor(Color.parseColor("#9C27B0"));
     }
-    if (title.isChecked()) {// boolean,设置标题
+    if (isTitle) {// boolean,设置标题
         tpd.setTitle("TimePicker Title");
     }
-    if (limitTimes.isChecked()) {// boolean,限制部分时间
+    if (isLimit) {// boolean,限制部分时间
         tpd.setTimeInterval(2, 5, 10);
     }
     tpd.setOnCancelListener(new DialogInterface.OnCancelListener() {
@@ -71,17 +71,17 @@ public void dateButton(View v){
 　　　　now.get(Calendar.MONTH),
 　　　　now.get(Calendar.DAY_OF_MONTH)
 　　);
-　　dpd.setThemeDark(modeDarkDate.isChecked());
-　　dpd.vibrate(vibrateDate.isChecked());
-　　dpd.dismissOnPause(dismissDate.isChecked());
-　　dpd.showYearPickerFirst(showYearFirst.isChecked());
-　　if (modeCustomAccentDate.isChecked()) {
+　　dpd.setThemeDark(isDarkTheme);// boolean,DarkTheme
+　　dpd.vibrate(isVibrate);// boolean,触摸震动
+　　dpd.dismissOnPause(isDismiss);// boolean,Pause时是否Dismiss
+　　dpd.showYearPickerFirst(showYearFirst);// boolean,先选择年
+　　if (isCustomAccent) {// boolean,自定义颜色
 　　　　dpd.setAccentColor(Color.parseColor("#9C27B0"));
 　　}
-　　if (titleDate.isChecked()) {
+　　if (isTitle) {// boolean,设置标题
 　　　　dpd.setTitle("DatePicker Title");
 　　}
-　　if (limitDates.isChecked()) {
+　　if (isLimit) {// boolean,只能选择某些日期
 　　　　Calendar[] dates = new Calendar[13];
 　　　　for (int i = -6; i <= 6; i++) {
 　　　　　　Calendar date = Calendar.getInstance();
@@ -90,7 +90,7 @@ public void dateButton(View v){
 　　　　}
 　　　　dpd.setSelectableDays(dates);
 　　}
-    if (highlightDates.isChecked()) {
+    if (isHighlight) {// boolean,部分高亮
         Calendar[] dates = new Calendar[13];
         for (int i = -6; i <= 6; i++) {
             Calendar date = Calendar.getInstance();
@@ -99,7 +99,7 @@ public void dateButton(View v){
         }
         dpd.setHighlightedDays(dates);
     }
-    if (disableDates.isChecked()) {
+    if (disableDates.isChecked()) {// boolean,某些日期不可选
         Calendar[] dates = new Calendar[3];
         for (int i = -1; i <= 1; i++) {
             Calendar date = Calendar.getInstance();
