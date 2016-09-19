@@ -109,22 +109,24 @@ public void dateButton(View v){
         dpd.setDisabledDays(dates);
     }
     dpd.show(getFragmentManager(), "Datepickerdialog");
-}
-  
+} 
 
-    @Override
-    public void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int second) {
-        String hourString = hourOfDay < 10 ? "0" + hourOfDay : "" + hourOfDay;
-        String minuteString = minute < 10 ? "0" + minute : "" + minute;
-        String secondString = second < 10 ? "0" + second : "" + second;
-        String time = "选择的时间: " + hourString + ":" + minuteString + ":" + secondString;
-        timeTextView.setText(time);
-    }
-
-    @Override
-    public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
-        String date = "选择的日期: " + year + "-" + (++monthOfYear) + "-" + dayOfMonth;
-        dateTextView.setText(date);
-    }
+// implements TimePickerDialog.OnTimeSetListener
+@Override
+public void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int second) {
+    String hourString = hourOfDay < 10 ? "0" + hourOfDay : "" + hourOfDay;
+    String minuteString = minute < 10 ? "0" + minute : "" + minute;
+    String secondString = second < 10 ? "0" + second : "" + second;
+    String time = "选择的时间: " + hourString + ":" + minuteString + ":" + secondString;
+    
+    Log.d("Time", time); 
 }
+
+// implements DatePickerDialog.OnDateSetListener
+@Override
+public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
+    String date = "选择的日期: " + year + "-" + (++monthOfYear) + "-" + dayOfMonth;
+    
+    Log.d("Date", date);  
+}　
 ```
