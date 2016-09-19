@@ -59,57 +59,57 @@ public void timeButton(View v){
     tpd.show(getFragmentManager(), "Timepickerdialog");
   }
 
-    /**
-     * 日期选择
-     * @param v
-     */
-    public void dateButton(View v){
-        Calendar now = Calendar.getInstance();
-        DatePickerDialog dpd = DatePickerDialog.newInstance(
-                MainActivity.this,
-                now.get(Calendar.YEAR),
-                now.get(Calendar.MONTH),
-                now.get(Calendar.DAY_OF_MONTH)
-        );
-        dpd.setThemeDark(modeDarkDate.isChecked());
-        dpd.vibrate(vibrateDate.isChecked());
-        dpd.dismissOnPause(dismissDate.isChecked());
-        dpd.showYearPickerFirst(showYearFirst.isChecked());
-        if (modeCustomAccentDate.isChecked()) {
-            dpd.setAccentColor(Color.parseColor("#9C27B0"));
+/**
+ * 日期选择
+ * @param v
+ */
+public void dateButton(View v){
+　　Calendar now = Calendar.getInstance();
+　　DatePickerDialog dpd = DatePickerDialog.newInstance(
+　　　　MainActivity.this,
+　　　　now.get(Calendar.YEAR),
+　　　　now.get(Calendar.MONTH),
+　　　　now.get(Calendar.DAY_OF_MONTH)
+　　);
+　　dpd.setThemeDark(modeDarkDate.isChecked());
+　　dpd.vibrate(vibrateDate.isChecked());
+　　dpd.dismissOnPause(dismissDate.isChecked());
+　　dpd.showYearPickerFirst(showYearFirst.isChecked());
+　　if (modeCustomAccentDate.isChecked()) {
+　　　　dpd.setAccentColor(Color.parseColor("#9C27B0"));
+　　}
+　　if (titleDate.isChecked()) {
+　　　　dpd.setTitle("DatePicker Title");
+　　}
+　　if (limitDates.isChecked()) {
+　　　　Calendar[] dates = new Calendar[13];
+　　　　for (int i = -6; i <= 6; i++) {
+　　　　　　Calendar date = Calendar.getInstance();
+　　　　　　date.add(Calendar.MONTH, i);
+　　　　　　dates[i + 6] = date;
+　　　　}
+　　　　dpd.setSelectableDays(dates);
+　　}
+    if (highlightDates.isChecked()) {
+        Calendar[] dates = new Calendar[13];
+        for (int i = -6; i <= 6; i++) {
+            Calendar date = Calendar.getInstance();
+            date.add(Calendar.WEEK_OF_YEAR, i);
+            dates[i + 6] = date;
         }
-        if (titleDate.isChecked()) {
-            dpd.setTitle("DatePicker Title");
-        }
-        if (limitDates.isChecked()) {
-            Calendar[] dates = new Calendar[13];
-            for (int i = -6; i <= 6; i++) {
-                Calendar date = Calendar.getInstance();
-                date.add(Calendar.MONTH, i);
-                dates[i + 6] = date;
-            }
-            dpd.setSelectableDays(dates);
-        }
-        if (highlightDates.isChecked()) {
-            Calendar[] dates = new Calendar[13];
-            for (int i = -6; i <= 6; i++) {
-                Calendar date = Calendar.getInstance();
-                date.add(Calendar.WEEK_OF_YEAR, i);
-                dates[i + 6] = date;
-            }
-            dpd.setHighlightedDays(dates);
-        }
-        if (disableDates.isChecked()) {
-            Calendar[] dates = new Calendar[3];
-            for (int i = -1; i <= 1; i++) {
-                Calendar date = Calendar.getInstance();
-                date.add(Calendar.DAY_OF_MONTH, i);
-                dates[i + 1] = date;
-            }
-            dpd.setDisabledDays(dates);
-        }
-        dpd.show(getFragmentManager(), "Datepickerdialog");
+        dpd.setHighlightedDays(dates);
     }
+    if (disableDates.isChecked()) {
+        Calendar[] dates = new Calendar[3];
+        for (int i = -1; i <= 1; i++) {
+            Calendar date = Calendar.getInstance();
+            date.add(Calendar.DAY_OF_MONTH, i);
+            dates[i + 1] = date;
+        }
+        dpd.setDisabledDays(dates);
+    }
+    dpd.show(getFragmentManager(), "Datepickerdialog");
+}
   
 
     @Override
